@@ -2,24 +2,13 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
 }
-/* =========+========= Hero Section =========+========= */
-#hero {
+#hero,
+#dream_big,
+.developer {
   display: flex;
-  background-image: url(/assets/images/top-banner.png);
-  background-repeat: no-repeat;
+  margin-bottom: 100px;
 }
-.area {
-  width: 50%;
-  margin-left: 4rem;
-}
-/* ===+=== text_area ===+=== */
-.text_area > h1 {
-  font-size: 3rem;
-}
-.text_mark {
-  color: orange;
-}
-.hire_me {
+.btn {
   text-decoration: none;
   background-image: linear-gradient(orange, tomato);
   color: whitesmoke;
@@ -27,10 +16,44 @@ body {
   padding: 10px 40px;
   border-radius: 5px;
 }
-/* ===+=== Close ===+=== */
-/* ===+=== img_area ===+=== */
-.img_area > img {
-  height: 35rem;
+.area {
+  width: 50%;
+  margin-left: 4rem;
 }
-/* ===+=== Close ===+=== */
-/* =========+========= Close Hero =========+========= */
+#hero {
+  background-image: url(/assets/images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.text_area > h1 {
+  font-size: 3rem;
+}
+.text_mark {
+  color: orange;
+}
+.img_area > img {
+  height: 40rem;
+}
+#dream_big {
+  background-image: url(/assets/images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.developer_left {
+  border-left: 8px solid #cf381d;
+}
+.developer_right {
+  border-left: 8px solid blue;
+}
+.box {
+  box-shadow: 10px 10px 20px gray;
+  margin: 0 4rem;
+  padding: 0 2rem;
+}
+#experiences {
+  background-image: url(/assets/images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+footer > p {
+  text-align: center;
+}
