@@ -1,0 +1,36 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+/* =========+========= Hero Section =========+========= */
+#hero {
+  display: flex;
+  background-image: url(/assets/images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.area {
+  width: 50%;
+  margin-left: 4rem;
+}
+/* ===+=== text_area ===+=== */
+.text_area > h1 {
+  font-size: 3rem;
+}
+.text_mark {
+  color: orange;
+}
+.hire_me {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  color: whitesmoke;
+  font-weight: 700;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+/* ===+=== Close ===+=== */
+/* ===+=== img_area ===+=== */
+.img_area > img {
+  height: 35rem;
+}
+/* ===+=== Close ===+=== */
+/* =========+========= Close Hero =========+========= */
