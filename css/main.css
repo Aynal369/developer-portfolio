@@ -21,7 +21,7 @@ body {
   margin-left: 4rem;
 }
 #hero {
-  background-image: url(/assets/images/top-banner.png);
+  background-image: url(assets/images/top-banner.png);
   background-repeat: no-repeat;
 }
 .text_area > h1 {
@@ -34,7 +34,7 @@ body {
   height: 40rem;
 }
 #dream_big {
-  background-image: url(/assets/images/dream-bg.png);
+  background-image: url(assets/images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right bottom;
 }
@@ -54,7 +54,7 @@ body {
   padding: 0 2rem;
 }
 #experiences {
-  background-image: url(/assets/images/exp-bg.png);
+  background-image: url(assets/images/exp-bg.png);
   background-repeat: no-repeat;
   background-position: left bottom;
 }
