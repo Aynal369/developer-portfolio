@@ -39,10 +39,14 @@ body {
   background-position: right bottom;
 }
 .developer_left {
-  border-left: 8px solid #cf381d;
+  border-left: 7px solid;
+  border-image: linear-gradient(tomato, salmon);
+  border-image-slice: 1;
 }
 .developer_right {
-  border-left: 8px solid blue;
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
 }
 .box {
   box-shadow: 10px 10px 20px gray;
